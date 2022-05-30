@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA15BE4D2844F5150073CB04 /* SuperHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA15BE4C2844F5150073CB04 /* SuperHeroModel.swift */; };
 		BA93C9B02840C29200AA9383 /* SuperHeroAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93C9AF2840C29200AA9383 /* SuperHeroAppApp.swift */; };
 		BA93C9B22840C29200AA9383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93C9B12840C29200AA9383 /* ContentView.swift */; };
 		BA93C9B42840C29700AA9383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93C9B32840C29700AA9383 /* Assets.xcassets */; };
 		BA93C9B72840C29700AA9383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93C9B62840C29700AA9383 /* Preview Assets.xcassets */; };
+		BA93C9BE2840C2BF00AA9383 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93C9BD2840C2BF00AA9383 /* HeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA15BE4C2844F5150073CB04 /* SuperHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroModel.swift; sourceTree = "<group>"; };
 		BA93C9AC2840C29200AA9383 /* SuperHeroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA93C9AF2840C29200AA9383 /* SuperHeroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroAppApp.swift; sourceTree = "<group>"; };
 		BA93C9B12840C29200AA9383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA93C9B32840C29700AA9383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA93C9B62840C29700AA9383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA93C9BD2840C2BF00AA9383 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA15BE492844F4D60073CB04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA15BE4A2844F4D90073CB04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA93C9B12840C29200AA9383 /* ContentView.swift */,
+				BA93C9BD2840C2BF00AA9383 /* HeroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA15BE4B2844F4DC0073CB04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA15BE4C2844F5150073CB04 /* SuperHeroModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BA93C9A32840C29200AA9383 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +79,10 @@
 		BA93C9AE2840C29200AA9383 /* SuperHeroApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA15BE4B2844F4DC0073CB04 /* Models */,
+				BA15BE4A2844F4D90073CB04 /* Views */,
+				BA15BE492844F4D60073CB04 /* Controllers */,
 				BA93C9AF2840C29200AA9383 /* SuperHeroAppApp.swift */,
-				BA93C9B12840C29200AA9383 /* ContentView.swift */,
 				BA93C9B32840C29700AA9383 /* Assets.xcassets */,
 				BA93C9B52840C29700AA9383 /* Preview Content */,
 			);
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA93C9B22840C29200AA9383 /* ContentView.swift in Sources */,
+				BA15BE4D2844F5150073CB04 /* SuperHeroModel.swift in Sources */,
 				BA93C9B02840C29200AA9383 /* SuperHeroAppApp.swift in Sources */,
+				BA93C9BE2840C2BF00AA9383 /* HeroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
