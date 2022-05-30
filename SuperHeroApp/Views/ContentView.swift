@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var superHeros : [SuperHeroModel] = superHerosData
+    
     var body: some View {
         ScrollView(.horizontal){
             HStack{
@@ -20,7 +21,9 @@ struct ContentView: View {
                 
             }//:HStack
             
+            
         }//:ScrollView
+    
 
     }
 }
